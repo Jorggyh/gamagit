@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/gamagit/static/js/main.5f1bde9b.js",
+    "main.js": "/gamagit/static/js/main.f87d8958.js",
     "index.html": "/gamagit/index.html",
-    "main.5f1bde9b.js.map": "/gamagit/static/js/main.5f1bde9b.js.map"
+    "main.f87d8958.js.map": "/gamagit/static/js/main.f87d8958.js.map"
   },
   "entrypoints": [
-    "static/js/main.5f1bde9b.js"
+    "static/js/main.f87d8958.js"
   ]
 }
