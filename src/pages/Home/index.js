@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import * as S from './styled'
 import { useNavigate } from 'react-router-dom'
+import logo from '../../img/detectiveWithGlasses.png'
 
 function App(props) {
   const [usuario, setUsuario] = useState()
@@ -21,8 +22,8 @@ function App(props) {
           'repositoriesName',
           JSON.stringify(repositoriesName)
         )
-        navigate('/repositories')
         setErro(false)
+        navigate('/repositories')
       })
       .catch(err => {
         setErro(true)
@@ -31,6 +32,12 @@ function App(props) {
 
   return (
     <S.HomeContainer>
+      <S.Title>Detetive GitHub</S.Title>
+      <img
+        src={logo}
+        alt="Imagem de um detetive procurando repositórios"
+        height="295rem"
+      />
       <S.Content>
         <S.Input
           className="usuarioInput"

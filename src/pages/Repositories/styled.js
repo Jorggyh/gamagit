@@ -8,9 +8,10 @@ export const Container = styled.div`
 `
 export const Title = styled.h1`
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: sans-serif;
   color: #333;
+  font-family: 'DM Sans', sans-serif;
 `
 export const List = styled.ul`
   list-style: none;
@@ -20,17 +21,21 @@ export const List = styled.ul`
 `
 export const ListItem = styled.li`
   margin: 0.5rem 0;
-  background: #000;
-  color: #fff;
+  background: rgb(41, 40, 40);
+  border-radius: 0.25rem;
+  color: white;
   padding: 0.5rem;
+  font-family: 'DM Sans', sans-serif;
 `
 export const LinkHome = styled(Link)`
   display: block;
   width: 4rem;
   text-align: center;
   margin: 2rem auto;
-  background-color: #000;
+  background-color: rgb(41, 40, 40);
+  border-radius: 0.25rem;
   padding: 0.5rem 0;
-  color: #fff;
+  color: white;
   text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
 `

@@ -8,12 +8,12 @@ function Repositories() {
 
   useEffect(() => {
     let repositoriesName = localStorage.getItem('repositoriesName')
-    if (repositoriesName !== null) {
+    if (repositoriesName) {
       repositoriesName = JSON.parse(repositoriesName)
       setRepositories(repositoriesName)
       localStorage.clear()
     } else {
-      navigate('/*')
+      navigate('/')
     }
   }, [navigate])
   return (
@@ -24,7 +24,7 @@ function Repositories() {
           return <S.ListItem>Repositório: {repository}</S.ListItem>
         })}
       </S.List>
-      <S.LinkHome to="/*">Voltar</S.LinkHome>
+      <S.LinkHome to="/">Voltar</S.LinkHome>
     </S.Container>
   )
 }
