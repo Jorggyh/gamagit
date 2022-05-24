@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/gamagit/static/js/main.f87d8958.js",
+    "main.js": "/gamagit/static/js/main.780a145b.js",
+    "static/media/detectiveWithGlasses.png": "/gamagit/static/media/detectiveWithGlasses.79507541398c432a823d.png",
     "index.html": "/gamagit/index.html",
-    "main.f87d8958.js.map": "/gamagit/static/js/main.f87d8958.js.map"
+    "main.780a145b.js.map": "/gamagit/static/js/main.780a145b.js.map"
   },
   "entrypoints": [
-    "static/js/main.f87d8958.js"
+    "static/js/main.780a145b.js"
   ]
 }
