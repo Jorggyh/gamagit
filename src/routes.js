@@ -8,7 +8,7 @@ function RoutesMap() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/*" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/repositories" element={<Repositories />} />
       </Routes>
     </BrowserRouter>
