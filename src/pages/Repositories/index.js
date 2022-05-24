@@ -8,7 +8,7 @@ function Repositories() {
 
   useEffect(() => {
     let repositoriesName = localStorage.getItem('repositoriesName')
-    if (repositoriesName) {
+    if (repositoriesName !== []) {
       repositoriesName = JSON.parse(repositoriesName)
       setRepositories(repositoriesName)
       localStorage.clear()

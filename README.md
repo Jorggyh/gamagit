@@ -1,3 +1,9 @@
+# PROPASTA DO PROJETO
+
+## Essa aplicação tem a proposta de ser um buscador de repositórios no GitHub, ao digitar o nome de um usuário é retornado os repositórios deste usuário, essa aplicação pode ser acessada pelo link abaixo:
+https://jorggyh.github.io/gamagit/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

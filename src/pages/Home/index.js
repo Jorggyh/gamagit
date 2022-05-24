@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import logo from '../../img/detectiveWithGlasses.png'
 
 function App(props) {
-  const [usuario, setUsuario] = useState()
+  const [usuario, setUsuario] = useState('')
   const [erro, setErro] = useState(false)
   let navigate = useNavigate()
 
