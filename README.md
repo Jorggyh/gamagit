@@ -1,6 +1,6 @@
-# PROPASTA DO PROJETO
+# Proposta do Projeto
 
-## Essa aplicação tem a proposta de ser um buscador de repositórios no GitHub, ao digitar o nome de um usuário é retornado os repositórios deste usuário, essa aplicação pode ser acessada pelo link abaixo:
+ Essa aplicação tem a proposta de ser um buscador de repositórios no GitHub, ao digitar o nome de um usuário é retornado os repositórios deste usuário, essa aplicação pode ser acessada pelo link abaixo:
 https://jorggyh.github.io/gamagit/
 
 
